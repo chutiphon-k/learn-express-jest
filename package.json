@@ -8,6 +8,7 @@
     "dev": "backpack"
   },
   "dependencies": {
-    "backpack-core": "^0.4.3"
+    "backpack-core": "^0.4.3",
+    "fastify": "^0.37.0"
   }
 }
