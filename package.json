@@ -5,10 +5,22 @@
   "repository": "https://chutiphon-k@github.com/chutiphon-k/learn-express-jest.git",
   "license": "MIT",
   "scripts": {
-    "dev": "backpack"
+    "dev": "backpack",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
   },
   "dependencies": {
+    "babel-jest": "^22.0.4",
     "backpack-core": "^0.4.3",
     "fastify": "^0.37.0"
+  },
+  "devDependencies": {
+    "jest": "^22.0.4"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
+    ]
   }
 }
